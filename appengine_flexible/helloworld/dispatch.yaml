@@ -1,0 +1,3 @@
+dispatch:
+  - url: "hello.kotaroterada.jp/*"
+    service: hello
