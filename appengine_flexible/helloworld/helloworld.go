@@ -40,7 +40,7 @@ func handle(w http.ResponseWriter, r *http.Request) {
 		http.NotFound(w, r)
 		return
 	}
-	fmt.Fprint(w, "Hello world!")
+	fmt.Fprint(w, "Hello, Google App Engine world!")
 }
 
 func healthCheckHandler(w http.ResponseWriter, r *http.Request) {
